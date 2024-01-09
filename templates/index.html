@@ -12,9 +12,9 @@
 <body>
 
 <h1>DUCK DUCK</h1>
-<li>SHOP</li>
-<li>PLAY</li>
-<li>FM</li>
+<a href="{{ url_for('get_shop') }}">SHOP</>
+<a href="{{ url_for('get_play') }}">PLAY</>
+<a href="{{ url_for('get_fm') }}">FM</a>
 <li>SOURCE-FILES</li>
 
 <img src="https://media.giphy.com/media/xTiTnM6WqhU5bcOxXy/giphy.gif">
@@ -26,5 +26,5 @@
 
 </body>
 
-<footer>DUCK DUCK COFFEE {{ year }}• CREDITS</footer>
+<footer>SIPPING FANCY IN {{ year }}•</footer>
 </html>
