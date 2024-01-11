@@ -1,3 +1,26 @@
+* {
+    background-color: Black
+}
+
+.font-space {
+    font-family: 'Space Mono', monospace;
+}
+
+.color-title {
+    color: white
+}
+
+.color-footer {
+    color: pink
+}
+
+body * {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    font-family: 'Space Mono', monospace;
+}
+
 body {
     background-color: grey
 }
