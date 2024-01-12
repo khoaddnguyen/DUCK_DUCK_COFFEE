@@ -9,6 +9,10 @@ def home():
     current_year = datetime.datetime.now().year
     return render_template("index.html", year=current_year)
 
+@app.route("/login")
+def get_login():
+    return render_template("login.html")
+
 @app.route("/shop")
 def get_shop():
     return render_template("shop.html")
