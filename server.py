@@ -8,6 +8,7 @@ app = Flask(__name__)
 def home():
     current_year = datetime.datetime.now().year
     return render_template("index.html", year=current_year)
+    # need to update for all html files
 
 @app.route("/login")
 def get_login():
