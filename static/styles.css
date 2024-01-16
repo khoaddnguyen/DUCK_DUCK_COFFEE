@@ -9,8 +9,8 @@ body * {
     font-family: 'Space Mono', monospace;
 }
 
-body {
-
+a:link {
+    text-decoration: none;
 }
 
 element.style {
