@@ -35,3 +35,7 @@ element.style {
     align-items: center;
 }
 
+#login {
+    margin: auto;
+    -webkit-transform: translateX(0px);
+}

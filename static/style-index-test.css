@@ -1,0 +1,12 @@
+.login-button {
+        float:right;
+}
+
+div {
+            font-family: "Space Mono", monospace;
+            font-size:12px;
+            background-color: black;
+            color: white;
+            /* padding: 10px; Add padding for spacing */
+            height: 100%;
+}
